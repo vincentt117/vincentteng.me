@@ -81,6 +81,7 @@ hr.star-primary:after {
 header .intro-text .name {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    
 }
 
 hr.star-light {
@@ -157,7 +158,7 @@ header .intro-text .skills {
 .navbar-custom {
     background: transparent;
     font-weight: 700;
-    border: none
+    border: none;
 }
 
 .navbar-custom a:focus {
@@ -219,7 +220,8 @@ header .intro-text .skills {
         transition: all .3s
     }
     .navbar-custom.affix {
-        padding: 10px 0
+        padding: 7px 0;
+        background-color: #000;
     }
     .navbar-custom.affix .navbar-brand {
         font-size: 1.5em
@@ -262,7 +264,7 @@ section.success {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
-    background: rgba(24, 188, 156, .9);
+    background: #2C3E50;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -366,7 +368,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18BC9C
+    color: #18BC9C;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -392,7 +394,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140
+    background-color: #233140;
 }
 
 .btn-outline {
@@ -412,6 +414,35 @@ footer .footer-below {
     background: #fff;
     border: 2px solid #fff
 }
+
+.btn-outline-twitter.active,
+.btn-outline-twitter:active,
+.btn-outline-twitter:focus,
+.btn-outline-twitter:hover {
+    color: #00aced;
+    background: #fff;
+    border: 2px solid #fff
+}
+
+.btn-outline-linkedin.active,
+.btn-outline-linkedin:active,
+.btn-outline-linkedin:focus,
+.btn-outline-linkedin:hover {
+    color: #007bb6;
+    background: #fff;
+    border: 2px solid #fff
+}
+
+.btn-outline-github.active,
+.btn-outline-github:active,
+.btn-outline-github:focus,
+.btn-outline-github:hover {
+    color: #6e5494;
+    background: #fff;
+    border: 2px solid #fff
+}
+
+
 
 .btn-primary.active,
 .btn-primary:active,
