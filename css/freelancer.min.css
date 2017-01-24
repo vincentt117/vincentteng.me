@@ -6,7 +6,16 @@
 
 body {
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    overflow-x: hidden
+    overflow-x: hidden;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.10)), url("../img/code.jpg");
+    background-attachment: fixed;
+
 }
 
 p {
@@ -22,7 +31,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #18BC9C;
+    color: #000;
     outline: 0
 }
 
@@ -34,7 +43,9 @@ h5,
 h6 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 50px;
 }
 
 hr.star-light,
@@ -61,7 +72,7 @@ hr.star-primary:after {
 .navbar-custom,
 header .intro-text .name {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 hr.star-light {
@@ -78,7 +89,7 @@ hr.star-primary {
 }
 
 hr.star-primary:after {
-    background-color: #fff;
+    background-color: transparent;
     color: #2C3E50
 }
 
@@ -98,12 +109,12 @@ header {
 
 header {
     text-align: center;
-    background: #18BC9C
+    color: #fff;
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px
+    padding-top: 25%;
+    padding-bottom: 35%;
 }
 
 header img {
@@ -119,13 +130,13 @@ header .intro-text .name {
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300
+    font-weight: 300;
 }
 
 @media (min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px
+        padding-top: 25%;
+        padding-bottom: 35%;
     }
     header .intro-text .name {
         font-size: 4.75em
@@ -136,7 +147,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom {
-    background: #2C3E50;
+    background: transparent;
     font-weight: 700;
     border: none
 }
@@ -164,7 +175,12 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:hover {
     color: #fff;
-    background: #18BC9C
+    background: transparent;
+    /*
+     border-width: 5px;
+    border-color: #fff;
+    border-style: solid;
+*/
 }
 
 .navbar-custom .navbar-toggle {
@@ -203,7 +219,8 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0
+    padding: 125px 0;
+    background-color: transparent;
 }
 
 section h2 {
@@ -212,7 +229,6 @@ section h2 {
 }
 
 section.success {
-    background: #18BC9C;
     color: #fff
 }
 
@@ -268,6 +284,10 @@ section.success {
 .scroll-top .btn {
     width: 50px;
     height: 50px
+}
+
+.img-exp{
+    padding-bottom: 50px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -355,7 +375,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2C3E50
+    background-color: transparent;
 }
 
 footer .footer-col {
