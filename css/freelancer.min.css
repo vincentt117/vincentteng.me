@@ -48,6 +48,14 @@ h6 {
     padding-bottom: 50px;
 }
 
+.h2-boxed {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2C3E50;
+    padding-bottom: 25px;
+}
+
 hr.star-light,
 hr.star-primary {
     padding: 0;
@@ -89,7 +97,7 @@ hr.star-primary {
 }
 
 hr.star-primary:after {
-    background-color: transparent;
+    background-color: #fff;
     color: #2C3E50
 }
 
