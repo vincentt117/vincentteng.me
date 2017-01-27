@@ -630,4 +630,8 @@ fieldset[disabled] .btn-success:hover {
     margin-right: auto;
 }
 
+.proj-date{
+    padding-bottom: 25px;
+}
+
 
