@@ -6,7 +6,7 @@
 
 body {
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    overflow-x: hidden;
+    overflow: auto;
     min-height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,6 +16,8 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.10)), url("../img/code.jpg");
     background-attachment: fixed;
 }
+
+
 
 p {
     font-size: 20px
@@ -120,8 +122,8 @@ header {
 }
 
 header .container {
-    padding-top: 25%;
-    padding-bottom: 35%;
+    padding-top: 50%;
+    padding-bottom: 40%;
 }
 
 header img {
@@ -262,7 +264,8 @@ section.success {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
-    background: #2C3E50;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -273,6 +276,9 @@ section.success {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
+    background:rgba(0,0,0,0.7);
+    opacity: 0;
+    position: absolute;
     opacity: 1
 }
 
@@ -295,7 +301,31 @@ section.success {
 }
 
 .img-exp {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    transition: all .25s;
+    
+}
+
+.img-exp:active,
+.img-exp:active,
+.img-exp:hover {
+    transform: scale(1.10, 1.10);
+    opacity: 1;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    transition: all .25s;
+}
+
+.img-exp:focus{
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    transition: all .25s;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -633,5 +663,7 @@ fieldset[disabled] .btn-success:hover {
 .proj-date{
     padding-bottom: 25px;
 }
+
+
 
 

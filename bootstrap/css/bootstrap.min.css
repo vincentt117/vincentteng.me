@@ -8,9 +8,18 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
+    height: 100%;
+    overflow: auto;
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0)), url("../img/code.jpg");
+    background-attachment: fixed;
 }
 
 body {
