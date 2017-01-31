@@ -301,6 +301,22 @@ th {
     .label {
         border: 1px solid #000
     }
+    .btn-outline {
+        color: white;
+        font-size: 20px;
+        border: solid 2px white;
+        background: transparent;
+        transition: all 0.3s ease-in-out;
+        margin-top: 15px;
+    }
+    .btn-outline:hover,
+    .btn-outline:focus,
+    .btn-outline:active,
+    .btn-outline.active {
+        color: #18BC9C;
+        background: white;
+        border: solid 2px white;
+    }
     .table {
         border-collapse: collapse!important
     }
@@ -3096,11 +3112,35 @@ legend {
     border-bottom: 1px solid #e5e5e5
 }
 
+
+/*
 label {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
     font-weight: 700
+}
+*/
+
+label {
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    margin: 6px ;
+    border-radius: 6px;
+    padding: 10px;
+    outline: none;
+    display:inline-block
+}
+
+label:hover,
+label:focus,
+label:active {
+    color: #18BC9C;
+    background: #fff;
+    border: 2px solid #fff;
 }
 
 input[type=search] {
@@ -3113,7 +3153,9 @@ input[type=checkbox],
 input[type=radio] {
     margin: 4px 0 0;
     margin-top: 1px\9;
-    line-height: normal
+    line-height: normal;
+    display: none;
+    visibility: hidden;
 }
 
 input[type=file] {
@@ -5094,6 +5136,15 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
     }
+    .navbar-custom .navbar-brand {
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+    .navbar-custom.affix {
+        padding: 7px 0;
+        background-color: rgba(0, 0, 0, 0.90);
+    }
 }
 
 .container-fluid>.navbar-collapse,
@@ -5163,6 +5214,16 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-brand:hover {
     text-decoration: none
 }
+
+.navbar-custom .navbar-brand {
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+    .navbar-custom.affix {
+        padding: 7px 0;
+        background-color: rgba(0, 0, 0, 0.90);
+    }
 
 .navbar-brand>img {
     display: block

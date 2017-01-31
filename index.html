@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Hi, I'm Vincent</title>
+    <!--brickfolio -->
+    <link href="css/jquery.brickfolio.min.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <!-- Bootstrap Core CSS -->
@@ -69,17 +71,14 @@
                     <h2>About</h2> </div>
             </div>
             <div class="row">
-                <div class="col-lg-2 col-lg-offset-2">
-                    <img src="/img/profile.png" class="img-responsive profile" alt=""> 
-                </div>
-                <div class="col-lg-8">
-                    <p>Hi, I'm Vincent, a Computer Science student specializing in Software Engineering at the University of Toronto Scarborough. I'm a highly motivated developer, constantly seeking new, challenging, and exciting opportunities to improve my abilitiess.</p>
-                    <p>I've participated in several Hackathons, developed for various organizations ranging from start-ups such as Ottawa's ReEnvision Digital Media, crown corporation Canada Post, and enterprieses like IBM. If you'd like to see more, feel free to take a look at my resume below or find me on social media. </p>
+                    <div class="col-lg-8 col-lg-offset-2  text-center">
+                        <p>Hi, I'm Vincent, a Computer Science student specializing in Software Engineering at the University of Toronto Scarborough. I'm a highly motivated developer, constantly seeking new, challenging, and exciting opportunities to improve my abilitiess.</p>
+                        <p>I've participated in several Hackathons, developed for various organizations ranging from start-ups such as Ottawa's ReEnvision Digital Media, crown corporation Canada Post, and enterprieses like IBM. If you'd like to see more, feel free to take a look at my resume below or find me on social media. </p>
+                    </div>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a class="btn btn-lg btn-outline" href="/files/CS Résumé (One Page).pdf" target="_blank"> <i class="fa fa-download"></i> My Resume </a>
                 </div>
-            </div>
         </div>
     </section>
     <!-- Portfolio Grid Section -->
@@ -90,68 +89,93 @@
                     <h2>Portfolio</h2> </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="proj-date">Past - 2016</h3> </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3>UniHome</h3> </div>
-                        </div> <img src="/img/portfolio/Unihome.png" class="img-responsive" alt=""> </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3>Franklin</h3> </div>
-                        </div> <img src="img/portfolio/Franklin.png" class="img-responsive" alt=""> </a>
-                </div>
-                                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3>Fuel Exception Reporting</h3> </div>
-                        </div> <img src="img/portfolio/Canada%20Post.png" class="img-responsive" alt=""> </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3>Yeezy Vision</h3> </div>
-                        </div> <img src="img/portfolio/Yeezy Vision.png" class="img-responsive" alt=""> </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3>NoNoWhere</h3> </div>
-                        </div> <img src="img/portfolio/No Nowhere.png" class="img-responsive" alt=""> </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3>European Chess</h3> </div>
-                        </div> <img src="img/portfolio/chess.png" class="img-responsive" alt=""> </a>
+                <div class="col-lg-12 text-center"></div>
+                <div class="demo-wrapper">
+                    <div class="text-center demo-options" style="text-align: center;">
+                        <!--				<label><input id="mixed_delay" type="checkbox" value="mixed-delay" checked>Mixed delays</label>-->
+                        <label>
+                            <input class="btn btn-lg btn-outline" name="filter" type="radio" value="" checked>All</label>
+                        <label>
+                            <input class="btn btn-lg btn-outline" name="filter" type="radio" value=".web">HTML/CSS/JS</label>
+                        <label>
+                            <input class="btn btn-lg btn-outline" name="filter" type="radio" value=".api">Sponsor API</label>
+                        <label>
+                            <input class="btn btn-lg btn-outline" name="filter" type="radio" value=".java">Java</label>
+                        <label>
+                            <input class="btn btn-lg btn-outline" name="filter" type="radio" value=".vb">Visual Basic</label>
+                        <!--				<label><input name="filter" type="radio" value=":not(.red)">Not Red</label>-->
+                        <!--				<label><input id="load_delay" type="checkbox" value="1000" checked>Simulate loading</label>-->
+                    </div>
+                    <div class="brickfolio">
+                        <div class="col-sm-4 portfolio-item bf-item web api">
+                            <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3>UniHome</h3> </div>
+                                </div> <img src="/img/portfolio/Unihome.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item bf-item web">
+                            <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3>Franklin</h3> </div>
+                                </div> <img src="img/portfolio/Franklin.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item bf-item vb">
+                            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3>Fuel Exception Reporting</h3> </div>
+                                </div> <img src="img/portfolio/Canada%20Post.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item bf-item web api">
+                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3>Yeezy Vision</h3> </div>
+                                </div> <img src="img/portfolio/Yeezy Vision.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item bf-item web">
+                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3>NoNoWhere</h3> </div>
+                                </div> <img src="img/portfolio/No Nowhere.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item bf-item java">
+                            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3>European Chess</h3> </div>
+                                </div> <img src="img/portfolio/chess.png" class="img-responsive" alt=""> </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- About Experience -->
+    <!-- Experience -->
     <section class="success" id="experience">
         <div class="container">
-            
-                <div class="row">
+            <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Experience</h2> </div>
             </div>
             <div class="row">
-                    <div class="col-sm-4 portfolio-item"><a href="https://www.ibm.com/ca-en/"><img src="img/IBM-White.png"  class="img-responsive img-logo img-exp" alt=""></a></div>
-                <div class="col-sm-4 portfolio-item"><a href="https://www.lamify.com/"><img src="img/Lamify.png" class="img-responsive img-logo img-exp" alt=""></a></div>
-                <div class="col-sm-4 portfolio-item"><a href="https://www.canadapost.ca/web/en/home.page"><img src="img/Canada%20Post.png" class="img-responsive img-logo img-exp" alt=""></a></div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="https://www.ibm.com/ca-en/"><img src="img/IBM-White.png" class="img-responsive img-logo img-exp" alt=""></a>
                 </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="https://www.lamify.com/"><img src="img/Lamify.png" class="img-responsive img-logo img-exp" alt=""></a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="https://www.canadapost.ca/web/en/home.page"><img src="img/Canada%20Post.png" class="img-responsive img-logo img-exp" alt=""></a>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item"><a href="https://www.reenvisionmarketing.com/"><img src="img/ReEnvision.png" class="img-responsive img-logo img-exp" alt=""></a></div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="https://www.reenvisionmarketing.com/"><img src="img/ReEnvision.png" class="img-responsive img-logo img-exp" alt=""></a>
+                </div>
             </div>
         </div>
     </section>
@@ -161,7 +185,7 @@
             <div class="row">
                 <div class="col-lg-12"> </div>
                 <ul class="list-inline">
-                    <li>Copyright &copy; Vincent Teng 2016</li>
+                    <li>Copyright &copy; 2016</li>
                     <li> <a href="https://twitter.com/vinofteng" target="_blank" class="btn-social btn-outline btn-outline-twitter"><i class="fa fa-fw fa-twitter"></i></a> </li>
                     <li> <a href="https://ca.linkedin.com/in/vincent-teng" target="_blank" class="btn-social btn-outline btn-outline-linkedin"><i class="fa fa-fw fa-linkedin"></i></a> </li>
                     <li> <a href="https://github.com/vincentt117" target="_blank" class="btn-social btn-outline btn-outline-github"><i class="fa fa-fw fa-github"></i></a> </li>
@@ -325,9 +349,42 @@
             </div>
         </div>
     </div>
-    
     <!-- jQuery -->
     <script src="jquery/jquery.min.js"></script>
+    <script src="jquery/jquery.brickfolio.min.js"></script>
+    <script>
+        jQuery(function ($) {
+            var $container = $('.brickfolio')
+                , $load_delay = $('#load_delay')
+                , $filter = $('input[name="filter"]')
+                , $animation = $('#animation')
+                , $mixed_delay = $('#mixed_delay')
+                , getAnimation = function () {
+                    return $animation.val() + ($mixed_delay.is(':checked') ? ' ' + $mixed_delay.val() : '');
+                }
+                , getLoadTime = function () {
+                    return $load_delay.is(':checked') ? $load_delay.val() : 0;
+                }
+                , getFilter = function () {
+                    return $filter.filter(':checked').val();
+                };
+            $filter.on('change', function () {
+                $container.brickfolio('filter', getFilter());
+            });
+            $load_delay.add($animation).add($mixed_delay).on('change', function () {
+                $container.brickfolio({
+                    animation: getAnimation()
+                    , filter: getFilter()
+                    , loadTime: getLoadTime()
+                });
+            });
+            $container.brickfolio({
+                animation: getAnimation()
+                , filter: getFilter()
+                , loadTime: getLoadTime()
+            });
+        });
+    </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- Plugin JavaScript -->

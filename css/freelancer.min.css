@@ -120,10 +120,13 @@ header {
     text-align: center;
     color: #fff;
 }
-
+@media (max-width:1024px) {
 header .container {
-    padding-top: 50%;
-    padding-bottom: 40%;
+
+    padding-top: 70%;
+    padding-bottom: 70%;
+
+}
 }
 
 header img {
@@ -146,6 +149,7 @@ header .intro-text .skills {
     header .container {
         padding-top: 25%;
         padding-bottom: 35%;
+/*        min-height: 100%;*/
     }
     header .intro-text .name {
         font-size: 4.75em
@@ -211,7 +215,8 @@ header .intro-text .skills {
         padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
-        transition: padding .3s
+        transition: padding .3s;
+        transition: background .7s;
     }
     .navbar-custom .navbar-brand {
         font-size: 2em;
@@ -221,7 +226,7 @@ header .intro-text .skills {
     }
     .navbar-custom.affix {
         padding: 7px 0;
-        background-color: #000;
+        background-color: rgba(0, 0, 0, 0.90);
     }
     .navbar-custom.affix .navbar-brand {
         font-size: 1.5em
@@ -313,7 +318,7 @@ section.success {
 .img-exp:active,
 .img-exp:active,
 .img-exp:hover {
-    transform: scale(1.10, 1.10);
+    transform: scale(1.05, 1.05);
     opacity: 1;
     -webkit-transition: all .25s;
     -moz-transition: all .25s;
