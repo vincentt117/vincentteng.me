@@ -7092,7 +7092,8 @@ button.close {
 }
 
 .modal-open {
-    overflow: hidden
+    overflow-x: hidden;
+    padding-right: 0px !important;
 }
 
 .modal {
@@ -7105,7 +7106,7 @@ button.close {
     display: none;
     overflow: hidden;
     -webkit-overflow-scrolling: touch;
-    outline: 0
+    outline: 0;
 }
 
 .modal.fade .modal-dialog {
@@ -7127,7 +7128,7 @@ button.close {
 
 .modal-open .modal {
     overflow-x: hidden;
-    overflow-y: auto
+/*    overflow-y: auto*/
 }
 
 .modal-dialog {
@@ -7138,7 +7139,7 @@ button.close {
 
 .modal-content {
     position: relative;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.80);
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #999;

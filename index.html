@@ -71,14 +71,14 @@
                     <h2>About</h2> </div>
             </div>
             <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2  text-center">
-                        <p>Hi, I'm Vincent, a Computer Science student specializing in Software Engineering at the University of Toronto Scarborough. I'm a highly motivated developer, constantly seeking new, challenging, and exciting opportunities to improve my abilities.</p>
-                        <p>I've participated in several Hackathons, developed for various organizations ranging from start-ups such as Ottawa's ReEnvision Digital Media, crown corporation Canada Post, and enterprises like IBM. If you'd like to see more, feel free to take a look at my resume below or find me on social media. </p>
-                    </div>
+                <div class="col-lg-8 col-lg-offset-2  text-center">
+                    <p>Hi, I'm Vincent, a Computer Science student specializing in Software Engineering at the University of Toronto Scarborough. I'm a highly motivated developer, constantly seeking new, challenging, and exciting opportunities to improve my abilities.</p>
+                    <p>I've participated in several Hackathons, developed for various organizations ranging from start-ups such as Ottawa's ReEnvision Digital Media, crown corporation Canada Post, and enterprises like IBM. If you'd like to see more, feel free to take a look at my resume/portfolio below or find me on social media. </p>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a class="btn btn-lg btn-outline" href="/files/CS Résumé (One Page).pdf" target="_blank"> <i class="fa fa-download"></i> My Resume </a>
-                </div>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a class="btn btn-lg btn-outline" href="/files/CS Résumé (One Page).pdf" target="_blank"> <i class="fa fa-download"></i> My Resume </a>
+            </div>
         </div>
     </section>
     <!-- Portfolio Grid Section -->
@@ -186,9 +186,11 @@
                 <div class="col-lg-12"> </div>
                 <ul class="list-inline">
                     <li>Copyright &copy; 2016</li>
-                    <li> <a href="https://twitter.com/vinofteng" target="_blank" class="btn-social btn-outline btn-outline-twitter"><i class="fa fa-fw fa-twitter"></i></a> </li>
+                    <li> <a onClick="location.href='mailto:you@yourdomain.com'" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a> </li>
+                    
                     <li> <a href="https://ca.linkedin.com/in/vincent-teng" target="_blank" class="btn-social btn-outline btn-outline-linkedin"><i class="fa fa-fw fa-linkedin"></i></a> </li>
                     <li> <a href="https://github.com/vincentt117" target="_blank" class="btn-social btn-outline btn-outline-github"><i class="fa fa-fw fa-github"></i></a> </li>
+                    <li> <a href="https://twitter.com/vinofteng" target="_blank" class="btn-social btn-outline btn-outline-twitter"><i class="fa fa-fw fa-twitter"></i></a> </li>
                 </ul>
             </div>
         </div>
@@ -210,15 +212,14 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2 class="h2-boxed">Yeezy Vision</h2>
-                            <hr class="star-primary"> <img src="img/portfolio/Yeezy Vision.png" class="img-responsive img-centered" alt="">
                             <p>Yeezy Vision is a Chrome extension that lets you view the web from the eyes of the 21st century's greatest artist - Kanye West. Billions of people have been deprived of the life changing perspective that Mr. West has cultivated. </p>
                             <div style="font-size: 20px;"><i class="fa fa-trophy" style="font-size: 30px;"></i>Site won best the Google Chrome API Award at McHacks2016 in McGill University</div>
                             <ul class="list-inline item-details">
-                                <li> <strong><a href="http://yeezyvision.tech/" target="_blank">Site</a>
+                                <li> <strong><a class="btn btn-sm btn-outline" href="http://yeezyvision.tech/" target="_blank">Site</a>
                                     </strong> </li>
-                                <li> <strong><a href="https://github.com/alexanderlam/YeezyVision" target="_blank">Github</a>
+                                <li> <strong><a class="btn btn-sm btn-outline" href="https://github.com/alexanderlam/YeezyVision" target="_blank">Github</a>
                                     </strong> </li>
-                                <li> <strong><a href="http://devpost.com/software/kanye-vision#updates" target="_blank">Devpost</a>
+                                <li> <strong><a class="btn btn-sm btn-outline" href="http://devpost.com/software/kanye-vision#updates" target="_blank">Devpost</a>
                                     </strong> </li>
                             </ul>
                         </div>
@@ -229,7 +230,7 @@
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+            <div class="close-modal" data-dismiss="modal" tabindex="0">
                 <div class="lr">
                     <div class="rl"> </div>
                 </div>
@@ -239,13 +240,12 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2 class="h2-boxed">NoNoWhere</h2>
-                            <hr class="star-primary"> <img src="img/portfolio/No Nowhere.png" class="img-responsive img-centered" alt="">
-                            <p>NoNoWhere.com is a location based search system which uses the user's location to indicate the nearest charity events, government sponsored workshops, and other free assistance events to help the homeless. I handled a small portion of design and text editing on the webpage</p>
-                            <div style="font-size: 20px;"><i class="fa fa-trophy" style="font-size: 30px;"></i>Site won best Domain name at Delta Hacks II in 2016 at McMaster University</div>
+                            <p>NoNoWhere.com is a location based search system which uses the user's location to indicate the nearest charity events, government sponsored workshops, and other free assistance events to help the homeless. I handled a small portion of design and text editing on the webpage.</p>
+                            <div style="font-size: 20px;"><i class="fa fa-trophy" style="font-size: 30px"></i>Site won best Domain name at Delta Hacks II in 2016 at McMaster University</div>
                             <ul class="list-inline item-details">
-                                <li><strong><a href="https://nonowhere.com" target="_blank">Site</a>
+                                <li><strong><a class="btn btn-sm btn-outline" href="https://nonowhere.com" target="_blank">Site</a>
                                     </strong> </li>
-                                <li> <strong><a href="https://github.com/superhussain/NoNoWhere" target="_blank">Github</a>
+                                <li> <strong><a class="btn btn-sm btn-outline" href="https://github.com/superhussain/NoNoWhere" target="_blank">Github</a>
                                     </strong> </li>
                             </ul>
                         </div>
@@ -266,7 +266,6 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2 class="h2-boxed">Fuel Exception Reporting</h2>
-                            <hr class="star-primary"> <img src="img/portfolio/Canada%20Post.png" class="img-responsive img-centered" alt="">
                             <p>Developed in Canada Post, this Excel VBA sorts through 100,000+ data entries and forms national and depot specific fuel/mileage exception files and sends them to respective managers in 12 minutes. The project is still used to today was praised for its efficiency and ease of use. </p>
                         </div>
                     </div>
@@ -286,7 +285,6 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2 class="h2-boxed">European Chess</h2>
-                            <hr class="star-primary"> <img src="img/portfolio/chess.png" class="img-responsive img-centered" alt="">
                             <p>2 Player chess developed in Java. Implementation, design, testing, and all components of the creation process was handled independently. Project was praised for it's complexity and intelligent implementation method.</p>
                         </div>
                     </div>
@@ -306,12 +304,10 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2 class="h2-boxed">Franklin</h2>
-                            <hr class="star-primary"> <img src="img/portfolio/Franklin.png" class="img-responsive img-centered" alt="">
                             <p>A web application built on MEAN (Mongo DB, Express, Angular JS, Node.JS) Stack for use by Venture Capitalist firm Coventure during the deCODE 2016 Ottawa Hackathon. Developed in under 24 hours, Franklin allowed investment firms to track the progress of start-ups they have invested in through custom KPI questions that formulate visual data representations. The KPI can request financial and other performance metric data with data ranges and other specifications. </p>
                             <ul class="list-inline item-details">
-                                <li> <strong><a href="http://heyfranklin.com/#/" target="_blank">Site</a>
-                                    </strong> </li>
-                                <li> <strong><a href="https://github.com/ismail-syed/deCODE_CoVenture" target="_blank">Github</a>
+                                <li> <a class="btn btn-sm btn-outline" href="http://heyfranklin.com/#/" target="_blank"> Site </a> </li>
+                                <li> <strong><a class="btn btn-sm btn-outline" href="https://github.com/ismail-syed/deCODE_CoVenture" target="_blank">Github</a>
                                     </strong> </li>
                             </ul>
                         </div>
@@ -332,15 +328,14 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2 class="h2-boxed">UniHome</h2>
-                            <hr class="star-primary"><img src="img/portfolio/Unihome.png" class="img-responsive img-centered" alt="">
                             <p>A web application developed using Node.js, Express, Bootstrap, and Esri's Map API in 24 hours at YHacks 2016 in Yale University. The application is catered to students and parents, allowing its user to find housing information (# of available houses, area safety, etc.,) and potential houses by searching up an educational institution (university, high school, elementary school, preschool, etc.,).</p>
                             <div style="font-size: 20px;"><i class="fa fa-trophy" style="font-size: 30px;"></i>Site won best the best domain name award from NameCheap at YHacks2016 in Yale University</div>
                             <ul class="list-inline item-details">
-                                <li> <strong><a href="https://Unihome.me" target="_blank">Site</a>
+                                <li> <strong><a class="btn btn-sm btn-outline" href="https://Unihome.me" target="_blank">Site</a>
                                     </strong> </li>
-                                <li> <strong><a href="https://github.com/vincentt117/Home.Me" target="_blank">Github</a>
+                                <li> <strong><a class="btn btn-sm btn-outline" href="https://github.com/vincentt117/Home.Me" target="_blank">Github</a>
                                     </strong> </li>
-                                <li> <strong><a href="https://devpost.com/software/home-me" target="_blank">Devpost</a>
+                                <li> <strong><a class="btn btn-sm btn-outline" href="https://devpost.com/software/home-me" target="_blank">Devpost</a>
                                     </strong> </li>
                             </ul>
                         </div>
@@ -385,8 +380,24 @@
             });
         });
     </script>
+    <script>
+        $(document).ready(function () {
+            $("#myBtn").click(function () {
+                $("#myModal").modal({
+                    keyboard: true
+                });
+            });
+            $("#myBtn2").click(function () {
+                $("#myModal2").modal({
+                    keyboard: false
+                });
+            });
+        });
+    </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <!-- Contact Form JavaScript -->
