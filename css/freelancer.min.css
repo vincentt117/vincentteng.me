@@ -410,7 +410,7 @@ section.success {
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee
+/*    border-top: 1px solid #eee*/
 }
 
 footer {

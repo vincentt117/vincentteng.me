@@ -3194,7 +3194,7 @@ output {
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #555;
+    color: #fff;
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
@@ -3214,16 +3214,16 @@ output {
 }
 
 .form-control::-moz-placeholder {
-    color: #999;
+    color: #fff;
     opacity: 1
 }
 
 .form-control:-ms-input-placeholder {
-    color: #999
+    color: #fff
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #999
+    color: #fff
 }
 
 .form-control::-ms-expand {
