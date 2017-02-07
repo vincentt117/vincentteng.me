@@ -3225,6 +3225,11 @@ output {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
 }
 
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
 .form-control:focus {
     border-color: #66afe9;
     outline: 0;
