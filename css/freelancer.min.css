@@ -359,7 +359,6 @@ section.success {
 
 .floating-label-form-group {
     position: relative;
-    margin-bottom: 0;
     padding-bottom: .5em;
     border-bottom: 1px solid #eee
 }
