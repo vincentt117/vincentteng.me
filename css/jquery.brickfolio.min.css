@@ -31,6 +31,15 @@
     padding: 0 !important;
 }
 
+@media screen and (max-width:767px) {
+    .bf-item {
+        display: none;
+        width: 90%;
+        max-width: 100%;
+        padding: 0 !important;
+    }
+}
+
 .bf-item.bf-loaded {
     display: inline-block
 }

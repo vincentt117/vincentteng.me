@@ -3232,15 +3232,15 @@ output {
 }
 
 .form-control::-moz-placeholder {
-    color: #737373 opacity: 1
+    color: #bdbdbd opacity: 1
 }
 
-.form-control:-ms-input-placeholder {
-    color: #737373
+.form-controlbdbdbdms-input-placeholder {
+    color: #bdbdbd
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #737373
+    color: #bdbdbd
 }
 
 .form-control::-ms-expand {
