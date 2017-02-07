@@ -6,7 +6,6 @@
 
 body {
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    /*
     overflow: auto;
     min-height: 100%;
     -webkit-background-size: cover;
@@ -16,11 +15,12 @@ body {
     background-position: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.10)), url("../img/code.jpg");
     background-attachment: fixed;
-*/
+
 }
 
 p {
-    font-size: 20px
+    font-size: 20px;
+    color: #fff;
 }
 
 p.small {

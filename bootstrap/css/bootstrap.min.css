@@ -23,15 +23,6 @@ html {
 
 #page-top {
     display: none;
-    overflow: auto;
-    min-height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.10)), url("../../img/code.jpg");
-    background-attachment: fixed;
 }
 
 #loading {

@@ -18,7 +18,6 @@ html {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0)), url("../img/code.jpg");
     background-attachment: fixed;
 }
 
