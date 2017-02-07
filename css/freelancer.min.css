@@ -360,7 +360,9 @@ section.success {
 .floating-label-form-group {
     position: relative;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.40);
 }
 
 .floating-label-form-group input,
