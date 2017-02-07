@@ -18,8 +18,34 @@ html {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0)), url("../img/code.jpg");
     background-attachment: fixed;
+}
+
+#page-top {
+    display: none;
+    overflow: auto;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.10)), url("../../img/code.jpg");
+    background-attachment: fixed;
+}
+
+#loading {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    /*    background-image: url("https://d13yacurqjgara.cloudfront.net/users/12755/screenshots/1037374/hex-loader2.gif");*/
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body {
@@ -3128,11 +3154,11 @@ label {
     border: 2px solid #fff;
     background: 0 0;
     transition: all .3s ease-in-out;
-    margin: 6px ;
+    margin: 6px;
     border-radius: 6px;
     padding: 10px;
     outline: none;
-    display:inline-block
+    display: inline-block
 }
 
 label:hover,
@@ -3215,8 +3241,7 @@ output {
 }
 
 .form-control::-moz-placeholder {
-    color:#737373
-    opacity: 1
+    color: #737373 opacity: 1
 }
 
 .form-control:-ms-input-placeholder {
@@ -5217,14 +5242,15 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-custom .navbar-brand {
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s
-    }
-    .navbar-custom.affix {
-        padding: 7px 0;
-        background-color: rgba(0, 0, 0, 0.90);
-    }
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+
+.navbar-custom.affix {
+    padding: 7px 0;
+    background-color: rgba(0, 0, 0, 0.90);
+}
 
 .navbar-brand>img {
     display: block
@@ -5503,7 +5529,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-toggle {
-/*    border-color: #ddd*/
+    /*    border-color: #ddd*/
 }
 
 .navbar-default .navbar-toggle:focus,
@@ -7129,7 +7155,7 @@ button.close {
 
 .modal-open .modal {
     overflow-x: hidden;
-/*    overflow-y: auto*/
+    /*    overflow-y: auto*/
 }
 
 .modal-dialog {
