@@ -1,5 +1,4 @@
 $(function() {
-    
 
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
@@ -22,7 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "",
+                url: "././mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
