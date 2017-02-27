@@ -7128,7 +7128,7 @@ button.close {
     left: 0;
     z-index: 1050;
     display: none;
-    overflow: hidden;
+    overflow: auto;
     -webkit-overflow-scrolling: touch;
     outline: 0;
 }
@@ -7151,7 +7151,7 @@ button.close {
 }
 
 .modal-open .modal {
-    overflow-x: hidden;
+    overflow-x: auto;
     /*    overflow-y: auto*/
 }
 
