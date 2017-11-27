@@ -8,8 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Hi, I'm Vincent</title>
-    <!--brickfolio -->
+    <!--modernizr -->
     <link href="css/jquery.brickfolio.min.css" rel="stylesheet">
+    <!--brickfolio -->
+    <link href="css/reset.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <!-- Bootstrap Core CSS -->
@@ -43,6 +45,7 @@
                     </li>
                     <li class="page-scroll"> <a href="#about">About</a> </li>
                     <li class="page-scroll"> <a href="#portfolio">Portfolio</a> </li>
+                    <li class="page-scroll"> <a href="#experience">Experience</a> </li>
                     <li class="page-scroll"> <a href="#contact">Contact</a> </li>
                     <!--<li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -58,7 +61,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="intro-text"> <span class="name">Vincent Teng</span> <span class="skills">Student · Software Engineer · Innovator</span> </div>
+                    <div class="intro-text"> <span class="name">Vincent Teng</span> <span class="skills">Student · Software Developer · Innovator</span> </div>
                 </div>
             </div>
         </div>
@@ -73,7 +76,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2  text-center">
                     <p>Hi, I'm Vincent, a Computer Science student specializing in Software Engineering at the University of Toronto Scarborough. I'm a highly motivated developer, constantly seeking new, challenging, and exciting opportunities to improve my abilities.</p>
-                    <p>I've participated in several Hackathons, developed for various organizations ranging from start-ups such as Ottawa's ReEnvision Digital Media, crown corporation Canada Post, and enterprises like IBM. If you'd like to see more, feel free to take a look at my resume/portfolio below or find me on social media. </p>
+                    <p>I've participated in several Hackathons, developed for various organizations ranging from start-ups such as Ottawa's ReEnvision Digital Media, crown corporation Canada Post, and enterprises like Microsoft and IBM. If you'd like to see more, feel free to take a look at my resume/portfolio below or find me on social media. </p>
                 </div>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -213,33 +216,86 @@
             </div>
         </div>
     </section>
-    <!-- Experience -->
-    <!--
-    <section class="success" id="experience">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Experience</h2> </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://www.ibm.com/ca-en/"><img src="img/IBM-White.png" class="img-responsive img-logo img-exp" alt=""></a>
+<!--    To fix white line height, edit height of #cd-timeline::before in reset.css-->
+    <section id="experience" class="cd-container">
+        <div class="row">
+            <div class="col-lg-2 text-center"></div>
+            <div id="cd-timeline" class="col-lg-8 text-center">
+                <h2>Experience</h2>
+                <!-- cd-timeline-block -->
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-company"> <img src="img/ms.png" alt="Picture"> </div>
+                    <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content text-left">
+                        <h4 style="padding-bottom: 0px;">Microsoft | Garage Intern</h4>
+                        <h5 style="padding-bottom: 0px;">Jan - Apr 2018</h5>
+                        <p> Developing critical software for Microsoft clients via Microsoft technologies (i.e., HoloLens, Azure, Office Suite). Leading daily SCRUM sessions with 4-5 developers to match and exceed client requirements. Acting as Product Manager, Developer, and QA engineer throughout development lifecycle </p>
+                    </div>
+                    <!-- cd-timeline-content -->
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://www.lamify.com/"><img src="img/Lamify.png" class="img-responsive img-logo img-exp" alt=""></a>
+                <!-- cd-timeline-block -->
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-company"> <img src="img/ibm.png" alt="Picture"> </div>
+                    <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content text-left">
+                        <h4 style="padding-bottom: 0px;">IBM | Cognos Analyst</h4>
+                        <h5 style="padding-bottom: 0px;">Jan - Aug 2017</h5>
+                        <p> Solved 150+ software issues via research, software log tracing, and trouble-shooting with clients. 
+Identified, documented, and tested 30+ defects within software to ensure client success. 
+Debugged 2-3 malfunctioning server environments daily, achieved multiple perfect customer evaluations </p>
+                    </div>
+                    <!-- cd-timeline-content -->
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://www.canadapost.ca/web/en/home.page"><img src="img/Canada%20Post.png" class="img-responsive img-logo img-exp" alt=""></a>
+                <!-- cd-timeline-block -->
+                <div class="cd-timeline-block">
+                     <div class="cd-timeline-img cd-company"> <img src="img/cd-icon-picture.svg" alt="Picture"></div>
+                    <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content text-left">
+                        <h4 style="padding-bottom: 0px;">Lamify | Software Engineer</h4>
+                        <h5 style="padding-bottom: 0px;">Jun - Dec 2016</h5>
+                        <p> Implemented landing pages and web applications via Node.js for company clients. 
+Developed webpage component to exact specifications in Chrome extension with 25,000+ users. 
+Performed regression testing on two language fonts for Chrome Extension </p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://www.reenvisionmarketing.com/"><img src="img/ReEnvision.png" class="img-responsive img-logo img-exp" alt=""></a>
+                  <!-- cd-timeline-block -->
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-company"> <img src="img/canadapost.png" alt="Picture"></div>
+                    <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content text-left">
+                        <h4 style="padding-bottom: 0px;">Canada Post | Software Developer</h4>
+                        <h5 style="padding-bottom: 0px;">Jun - Aug 2016</h5>
+                        <p>Architected, documented, and implemented Excel VBA fuel usage anomaly detecting macro monitoring entire 13,000+ vehicle fleet in Canada. Executed features requested daily by managers, including automated email delivery via Outlook VBA. Surpassed previous implementation with 95% reduced run time with macro still in-use today </p>
+                    </div>
+                    <!-- cd-timeline-content -->
+                </div>
+                <!-- cd-timeline-block -->
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-company"> <img src="img/reenvision.png" alt="Picture"></div>
+                    <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content text-left">
+                        <h4 style="padding-bottom: 0px;">ReEnvision | Web Developer</h4>
+                        <h5 style="padding-bottom: 0px;">Apr - Jun 2016</h5>
+                        <p> Designed and implemented business orientated websites for agency clients via WordPress. Created application forms for Ottawa Member of Parliament’s public site. Implemented SEO and resolved 200+ visual issues for various client sites via Google Analytics and HTML/CSS </p>
+                    </div>
+                    <!-- cd-timeline-content -->
+                </div>
+                
+                <!-- cd-timeline-block -->
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-company"> <img src="img/uoft.png" alt="Picture"></div>
+                    <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content text-left">
+                        <h4 style="padding-bottom: 0px;">University of Toronto | Student</h4>
+                        <h5 style="padding-bottom: 0px;">Sept 2015 - Present</h5>
+                        <p>HBSc Software Engineering Specialist: CS, Math, and Stats</p>
+                    </div>
+                    <!-- cd-timeline-content -->
                 </div>
             </div>
         </div>
+        <!-- cd-timeline-block -->
     </section>
--->
     <!-- Contact -->
     <section class="success" id="contact">
         <div class="container">
@@ -707,6 +763,9 @@
     <script src="js/contact_me.js"></script>
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+    <!-- Timeline -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/main.js"></script>
 </body>
 <div id="loading"></div>
 

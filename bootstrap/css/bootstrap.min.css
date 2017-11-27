@@ -3143,7 +3143,7 @@ label {
     color: #fff;
     font-size: 20px;
     border: 2px solid #fff;
-    background: 0 0;
+    background-color: rgba(0, 0, 0, 0.40);
     transition: all .3s ease-in-out;
     margin: 6px;
     border-radius: 6px;

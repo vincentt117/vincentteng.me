@@ -236,7 +236,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 125px 0;
+    padding: 200px 0;
     background-color: transparent;
 }
 
@@ -251,7 +251,8 @@ section.success {
 
 @media (max-width:767px) {
     section {
-        padding: 75px 0
+        padding: 75px 0;
+        margin: 0px 20px 0px 20px;
     }
     section.first {
         padding-top: 75px
@@ -261,6 +262,8 @@ section.success {
 #portfolio .portfolio-item {
     margin: 0 0 15px;
     right: 0;
+    border-radius: 13px;
+    overflow: hidden;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -452,7 +455,7 @@ footer .footer-below {
     color: #fff;
     font-size: 20px;
     border: 2px solid #fff;
-    background: 0 0;
+    background-color: rgba(0, 0, 0, 0.40);
     transition: all .3s ease-in-out;
     margin-top: 15px
 }
