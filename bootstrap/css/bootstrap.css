@@ -8,11 +8,11 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-    overflow: auto;
     height: 100%;
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
