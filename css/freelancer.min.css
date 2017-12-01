@@ -692,6 +692,12 @@ fieldset[disabled] .btn-success:hover {
     padding-bottom: 25px;
 }
 
+.img-sm{
+    margin-top: 100px;
+    height: 150px;
+    width: 150px;
+}
+
 #load{
     width:100%;
     height:100%;

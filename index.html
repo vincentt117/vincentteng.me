@@ -8,7 +8,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Hi, I'm Vincent</title>
-    
     <!--modernizr -->
     <link href="css/jquery.brickfolio.min.css" rel="stylesheet">
     <!--brickfolio -->
@@ -22,8 +21,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> 
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> </head>
 
 <body id="page-top" class="index">
     <!-- Loading-->
@@ -66,6 +64,7 @@
                     <div class="col-lg-12">
                         <div class="intro-text"> <span class="name">Vincent Teng</span> <span class="skills">Student · Software Developer · Innovator</span> </div>
                     </div>
+                    <div class="col-lg-8 col-lg-offset-2 text-center page-scroll"> <a href="#about"><img class="img-sm"src="img/arrow-down.gif"></a> </div>
                 </div>
             </div>
         </header>
@@ -713,87 +712,87 @@
             </div>
         </div>
     </div>
-    </body>
-    <!-- jQuery -->
-    <script src="jquery/jquery.min.js"></script>
-    <script src="jquery/jquery.brickfolio.min.js"></script>
-    <script>
-        jQuery(function ($) {
-            var $container = $('.brickfolio')
-                , $load_delay = $('#load_delay')
-                , $filter = $('input[name="filter"]')
-                , $animation = $('#animation')
-                , $mixed_delay = $('#mixed_delay')
-                , getAnimation = function () {
-                    return $animation.val() + ($mixed_delay.is(':checked') ? ' ' + $mixed_delay.val() : '');
-                }
-                , getLoadTime = function () {
-                    return $load_delay.is(':checked') ? $load_delay.val() : 0;
-                }
-                , getFilter = function () {
-                    return $filter.filter(':checked').val();
-                };
-            $filter.on('change', function () {
-                $container.brickfolio('filter', getFilter());
-            });
-            $load_delay.add($animation).add($mixed_delay).on('change', function () {
-                $container.brickfolio({
-                    animation: getAnimation()
-                    , filter: getFilter()
-                    , loadTime: getLoadTime()
-                });
-            });
+</body>
+<!-- jQuery -->
+<script src="jquery/jquery.min.js"></script>
+<script src="jquery/jquery.brickfolio.min.js"></script>
+<script>
+    jQuery(function ($) {
+        var $container = $('.brickfolio')
+            , $load_delay = $('#load_delay')
+            , $filter = $('input[name="filter"]')
+            , $animation = $('#animation')
+            , $mixed_delay = $('#mixed_delay')
+            , getAnimation = function () {
+                return $animation.val() + ($mixed_delay.is(':checked') ? ' ' + $mixed_delay.val() : '');
+            }
+            , getLoadTime = function () {
+                return $load_delay.is(':checked') ? $load_delay.val() : 0;
+            }
+            , getFilter = function () {
+                return $filter.filter(':checked').val();
+            };
+        $filter.on('change', function () {
+            $container.brickfolio('filter', getFilter());
+        });
+        $load_delay.add($animation).add($mixed_delay).on('change', function () {
             $container.brickfolio({
                 animation: getAnimation()
                 , filter: getFilter()
                 , loadTime: getLoadTime()
             });
         });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("#myBtn").click(function () {
-                $("#myModal").modal({
-                    keyboard: true
-                });
-            });
-            $("#myBtn2").click(function () {
-                $("#myModal2").modal({
-                    keyboard: false
-                });
+        $container.brickfolio({
+            animation: getAnimation()
+            , filter: getFilter()
+            , loadTime: getLoadTime()
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $("#myBtn").click(function () {
+            $("#myModal").modal({
+                keyboard: true
             });
         });
-    </script>
-    <!-- Bootstrap Core JavaScript -->
-    <!--    <script src="bootstrap/js/bootstrap.min.js"></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
-    <!-- Timeline -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/main.js"></script>
-    <!--Loading-->
-    <!--    loading-->
-    <script>
-        document.onreadystatechange = function () {
-            var state = document.readyState
-            if (state == 'interactive') {
-                document.getElementById('contents').style.visibility = "hidden";
-            }
-            else if (state == 'complete') {
-                setTimeout(function () {
-                    document.getElementById('interactive');
-                    document.getElementById('load').style.visibility = "hidden";
-                    document.getElementById('contents').style.visibility = "visible";
-                }, 1000);
-            }
+        $("#myBtn2").click(function () {
+            $("#myModal2").modal({
+                keyboard: false
+            });
+        });
+    });
+</script>
+<!-- Bootstrap Core JavaScript -->
+<!--    <script src="bootstrap/js/bootstrap.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+<!-- Theme JavaScript -->
+<script src="js/freelancer.min.js"></script>
+<!-- Timeline -->
+<script src="js/modernizr.js"></script>
+<script src="js/main.js"></script>
+<!--Loading-->
+<!--    loading-->
+<script>
+    document.onreadystatechange = function () {
+        var state = document.readyState
+        if (state == 'interactive') {
+            document.getElementById('contents').style.visibility = "hidden";
         }
-    </script>
+        else if (state == 'complete') {
+            setTimeout(function () {
+                document.getElementById('interactive');
+                document.getElementById('load').style.visibility = "hidden";
+                document.getElementById('contents').style.visibility = "visible";
+            }, 1000);
+        }
+    }
+</script>
 
 </html>
