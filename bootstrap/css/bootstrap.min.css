@@ -5161,7 +5161,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-custom .navbar-brand {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
-        transition: all .3s
+        transition: all .3s;
     }
     .navbar-custom.affix {
         padding: 7px 0;
