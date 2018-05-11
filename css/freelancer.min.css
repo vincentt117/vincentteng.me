@@ -352,9 +352,9 @@ section.success {
     z-index: 2
 }
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
+input:-webkit-autofill:hover,
 input:-webkit-autofill:focus
-input:-webkit-autofill, 
+input:-webkit-autofill,
 textarea:-webkit-autofill,
 textarea:-webkit-autofill:hover
 textarea:-webkit-autofill:focus,
@@ -490,6 +490,14 @@ footer .footer-below {
 .btn-outline-github:active,
 .btn-outline-github:hover {
     color: #6e5494;
+    background: #fff;
+    border: 2px solid #fff
+}
+
+.btn-outline-medium.active,
+.btn-outline-medium:active,
+.btn-outline-medium:hover {
+    color: ##39B18D;
     background: #fff;
     border: 2px solid #fff
 }
