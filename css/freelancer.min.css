@@ -498,7 +498,15 @@ footer .footer-below {
 .btn-outline-medium.active,
 .btn-outline-medium:active,
 .btn-outline-medium:hover {
-    color: ##39B18D;
+    color: #39B18D;
+    background: #fff;
+    border: 2px solid #fff
+}
+
+.btn-outline-youtube.active,
+.btn-outline-youtube:active,
+.btn-outline-youtube:hover {
+    color: #FF0000;
     background: #fff;
     border: 2px solid #fff
 }
