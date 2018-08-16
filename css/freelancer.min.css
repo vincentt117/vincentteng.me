@@ -511,6 +511,14 @@ footer .footer-below {
     border: 2px solid #fff
 }
 
+.btn-outline-instagram.active,
+.btn-outline-instagram:active,
+.btn-outline-instagram:hover {
+    color: #cd486b;
+    background: #fff;
+    border: 2px solid #fff
+}
+
 .btn-primary.active,
 .btn-primary:active,
 .btn-success.active,
