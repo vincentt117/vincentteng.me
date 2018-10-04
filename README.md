@@ -9,9 +9,13 @@ Thanks for visiting my site!
 
 ### Tools used - 
 https://startbootstrap.com/template-overviews/freelancer/
+
 https://codyhouse.co/gem/vertical-timeline
+
 https://github.com/fooplugins/brickfolio
+
 https://formspree.io/
+
 https://fontawesome.com/
 
 
