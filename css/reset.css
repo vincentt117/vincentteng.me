@@ -10,9 +10,9 @@
 #cd-timeline::before {
   content: '';
   position: absolute;
-  top: 10%;
+  top: 8%;
   left: 18px;
-  height: 80%;
+  height: 82%;
   width: 4px;
   background: #fff;
 }
