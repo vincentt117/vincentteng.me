@@ -166,15 +166,24 @@
                                         value=".arvr">AR/VR</label>
                             </div>
                             <div class="brickfolio">
-                                    <div class=" portfolio-item bf-item web">
-                                            <a href="#project-doggo" class="portfolio-link" data-toggle="modal">
+                                    <div class=" portfolio-item bf-item python">
+                                            <a href="#project-iris" class="portfolio-link" data-toggle="modal">
                                                 <div class="caption">
                                                     <div class="caption-content">
-                                                        <h3>What's that Doggo</h3>
+                                                        <h3>Iris</h3>
                                                     </div>
-                                                </div> <img src="/img/portfolio/doggo.jpg" class="img-responsive" alt="">
-                                            </a>
-                                        </div>
+                                            </div> <img src="/img/portfolio/iris.jpg" class="img-responsive" alt="">
+                                        </a>
+                                    </div>
+                                    <div class=" portfolio-item bf-item web">
+                                        <a href="#project-doggo" class="portfolio-link" data-toggle="modal">
+                                            <div class="caption">
+                                                <div class="caption-content">
+                                                    <h3>What's that Doggo</h3>
+                                                </div>
+                                            </div> <img src="/img/portfolio/doggo.jpg" class="img-responsive" alt="">
+                                        </a>
+                                    </div>
                                 <div class=" portfolio-item bf-item arvr">
                                     <a href="#project-holoffice" class="portfolio-link" data-toggle="modal">
                                         <div class="caption">
@@ -555,6 +564,43 @@
         </div>
     </div>
     <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="project-iris" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2 class="h2-boxed">Iris</h2>
+                            <p>Voice assistant for connected vehicles which activates when a driver shows signs of drowsiness (frequent closing of eyes) on camera.
+                                Utilizes APIs of Spotify to play music, Google Maps to user to local rest stop, London Ontario open data set on traffic to notify driver of nearby 
+                                school crossings, Twilio for the driver to call a friend, and GCP for hosting.
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li> <strong><a class="btn btn-sm btn-outline"
+                                            href="https://www.youtube.com/watch?v=k9qY32GCEYw"
+                                            target="_blank"><i class="fa fa-fw fa-youtube-play"></i>Video</a>
+                                    </strong> </li>
+                                <li> <strong><a class="btn btn-sm btn-outline"
+                                        href="https://docs.google.com/presentation/d/1-FOqloCePJdSFXUYsURwk6niVWi1uAH4658pJqBVJEY/edit?usp=sharing" target="_blank"><i
+                                            class="fa fa-fw fa-file-powerpoint-o"></i> Slides</a>
+                                </strong> </li>
+                                <li> <strong><a class="btn btn-sm btn-outline"
+                                        href="https://github.com/vincentt117/doggo-ml" target="_blank"><i
+                                            class="fa fa-fw fa-code-fork"></i> DevPost</a>
+                                </strong> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <div class="portfolio-modal modal fade" id="project-doggo" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -568,7 +614,7 @@
                         <div class="modal-body">
                             <h2 class="h2-boxed">What's that Doggo</h2>
                             <p>A web application that categorizes uploaded images of dogs by breed. Using an open source labeled dataset of over 20,000 dog pictures and 120 breeds, we trained a deep learning model hosted on AWS Sagemaker's notebook cluster instances.
-                                A web-app was developed using Filepond and Material-UI on top of React for file upload and result surfacing w/ pipelines to deliver the image to S3 while retriving results.
+                                A web-app was developed using Filepond and Material-UI on top of React for file upload and result surfacing w/ pipelines to deliver the image to S3 while retrieving results.
                             </p>
                             <div style="font-size: 20px;"><i class="fa fa-trophy" style="font-size: 30px;"></i>Project
                                 was top 10 (out of 80+ contestants) finalist at Hack the 6ix in the University of Toronto in August of 2019.
@@ -640,7 +686,7 @@
                         <div class="modal-body">
                             <h2 class="h2-boxed">Clair.ai</h2>
                             <p>A machine learning solution that uses a GCP computing engine with trained machine
-                                learning models which proccesses surrounding humitity & temperature data streamed from
+                                learning models which processes surrounding humidity & temperature data streamed from
                                 an environmental sensor on a Qualcomm 410c Dragon Board, visualizes the predicted
                                 PM 2.5 (particular matter less than 2.5 micro meters) for the next 24 hours on a React
                                 visualization web app on Firebase. Developed the React web app using Uber's React-Vis
@@ -686,7 +732,7 @@
                                 in a given time window. Extension developed using the Riot Games Cassiopeia API, Twitch
                                 API, AWS EC2 </p>
                             <div style="font-size: 20px;"><i class="fa fa-trophy" style="font-size: 30px;"></i>Project
-                                was honourable mention for data visualization category at Riot Games API Hackathon,
+                                was honorable mention for data visualization category at Riot Games API Hackathon,
                                 November 2018</div>
                             <ul class="list-inline item-details">
                                 <li> <strong><a class="btn btn-sm btn-outline"
