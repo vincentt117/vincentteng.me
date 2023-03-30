@@ -83,8 +83,8 @@
                         </li>
                         <li class="page-scroll"> <a href="#page-top">Home</a> </li>
                         <li class="page-scroll"> <a href="#about">About</a> </li>
-                        <li class="page-scroll"> <a href="#portfolio">Portfolio</a> </li>
                         <li class="page-scroll"> <a href="#experience">Experience</a> </li>
+                        <li class="page-scroll"> <a href="#portfolio">Portfolio</a> </li>
                         <li class="page-scroll"> <a href="#contact">Contact</a> </li>
                         <!--<li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -100,8 +100,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="intro-text"> <span class="name">Vincent Teng</span> <span class="skills">Student ·
-                                Powerlifter · Software Engineer</span> </div>
+                        <div class="intro-text"> <span class="name">Vincent Teng</span> <span class="skills">Software Engineer</span> </div>
                     </div>
                     <div class="col-lg-8 col-lg-offset-2 text-center page-scroll">
                         <a href="#about"><img class="img-sm" src="img/arrow-down.gif"></a>
@@ -119,11 +118,10 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2  text-center">
-                        <p>Hi, I'm Vincent, a software engineering student at the University of Toronto. I'm a highly
-                            motivated developer, constantly seeking new, challenging, and exciting opportunities to
+                        <p>Hi, I'm Vincent. I'm currently at Twitch (Amazon subsidiary) as a softare engineer on the ads brand safety team. I'm a 
+                            highly motivated developer, constantly seeking new, challenging, and exciting opportunities to
                             improve my abilities.</p>
-                        <p> From Kubernetes pod autoscaling for the 2019 premiere of Game of Thrones to a HoloLens
-                            research app that visualizes cancer cells, I've had the chance to build some exciting and
+                        <p> From brand safety advertisement platforms to autonomous vehicle simulations and HoloLens medical research apps, I've had the chance to build some exciting and
                             high-impact solutions for a wide array of scenarios and clients. </p>
                         <p>If you'd like to join me for the next challenge or are just interested in the site, please
                             feel free to look around or find me on social media. </p>
@@ -131,10 +129,119 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a class="btn btn-lg btn-outline" href="/files/Vincent%20Teng%20Resume.pdf" target="_blank"> <i
+                    <a class="btn btn-lg btn-outline" href="/files/Vincent_Teng_Resume.pdf" target="_blank"> <i
                             class="fa fa-download"></i> My Resume </a>
                 </div>
             </div>
+        </section>
+        <!--    To fix white line height, edit height of #cd-timeline::before in reset.css-->
+        <section id="experience" class="cd-container">
+            <div class="row">
+                <div class="col-lg-2 text-center"></div>
+                <div id="cd-timeline" class="col-lg-8 text-center">
+                    <h2>Experience</h2>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-company"> <img src="img/experience/twitch.png" alt="Picture"> </div>
+                        <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content text-left">
+                            <h4 style="padding-bottom: 0px;">Twitch | Software Engineer, Ads Brand Safety</h4>
+                            <h5 style="padding-bottom: 0px;">2021 - Present</h5>
+                            <p> Lead a team of developers and advertisement stakeholders to integrate first-party contextual signals-freeform
+                                tags into brand safety services, modernizing advertisement targeting for all user-generated content on Twitch. 
+                                Built AWS Lambda and SQS infrastructure for contextual targeting, 
+                                aligning Twitch's $100M+ ads inventory with Amazon's to accomplish the ads organization's #1 priority for 2021.
+                                </p>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-company"> <img src="img/experience/Lyft.png" alt="Picture"> </div>
+                        <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content text-left">
+                            <h4 style="padding-bottom: 0px;">Lyft | Software Engineer Intern, AV</h4>
+                            <h5 style="padding-bottom: 0px;">Summer 2020</h5>
+                            <p> Created Jupyter dashboards and libraries for running AV simulations to replace CLI tools used by ~50 engineers.
+                                Developed a web workflow to stream and visualize path divergence between AV and simulations by Matplotlib.
+                                Categorized w/ ML, AV to vehicle contacts in simulation missions to automate process from manual triage
+                                </p>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-company"> <img src="img/experience/ms.png" alt="Picture"> </div>
+                        <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content text-left">
+                            <h4 style="padding-bottom: 0px;">Microsoft | Software Engineer Intern</h4>
+                            <h5 style="padding-bottom: 0px;">Summer 2019</h5>
+                            <p> Architected and developed a concurrent scheduler for the Azure .NET application
+                                profiler.
+                                Abstracted an orchestrator for starting/stopping profile sessions and extended it to
+                                Windows and Linux profilers.
+                                Created a scheduling policy which could instantly profile a user's application through
+                                the Azure Portal. </p>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-company"> <img src="img/experience/HBO.png" alt="Picture"> </div>
+                        <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content text-left">
+                            <h4 style="padding-bottom: 0px;">HBO | Software Engineer Intern</h4>
+                            <h5 style="padding-bottom: 0px;">Summer 2018</h5>
+                            <p> Implemented Kubernetes Horizontal Pod Autoscaling on custom metrics for 2019 Game of
+                                Thrones Premier. Architected a web adapter to receive HPA controller requests and
+                                extract Statsd metrics from GraphiteDB Developed HTTP endpoints to emit Prometheus
+                                scrapable histogram metrics for 5 HBO micro-services. </p>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-company"> <img src="img/experience/ms.png" alt="Picture"> </div>
+                        <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content text-left">
+                            <h4 style="padding-bottom: 0px;">Microsoft | Garage Software Engineer Intern</h4>
+                            <h5 style="padding-bottom: 0px;">Winter 2018</h5>
+                            <p> Developed and architected a HoloLens application via Unity and Azure for visualizing 3D
+                                cancer tumour data. Implemented a WebGL app to inject keyboard inputs into the HoloLens
+                                app while syncing the apps’ states. Designed a game object that enabled users to filter
+                                between 50,000 cell models via keyboard control. </p>
+                            <ul class="list-inline">
+                                <li> <a href="https://medium.com/@vincentt117/microsoft-garage-internship-4-months-of-hololens-unity-kinda-startup-and-memes-9acdff53a6ae"
+                                        target="_blank" class="btn-social btn-outline btn-outline-medium"><i
+                                            class="fa fa-fw fa-medium"></i></a>
+                                <li> <a href="https://www.youtube.com/watch?v=4OouJKwl5bMe" target="_blank"
+                                        class="btn-social btn-outline btn-outline-youtube"><i
+                                            class="fa fa-fw fab fa-youtube-play"></i></a>
+                                <li> <a href="http://dailyhive.com/vancouver/bc-cancer-microsoft-treatment-response-study"
+                                        target="_blank" class="btn-social btn-outline"><i
+                                            class="fa fa-fw fa-newspaper-o"></i></a>
+                                <li> <a href="https://mcec.microsoft.ca/blog/vancouver-interns-brings-holograms-to-bc-cancer/"
+                                        target="_blank" class="btn-social btn-outline btn-outline-linkedin"><i
+                                            class="fa fa-fw fa-windows"></i></a>
+                            </ul>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-company"> <img src="img/experience/uoft.png" alt="Picture"></div>
+                        <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content text-left">
+                            <h4 style="padding-bottom: 0px;">University of Toronto | Student</h4>
+                            <h5 style="padding-bottom: 0px;">Fall 2015 - Fall 2020</h5>
+                            <p>Major: Computer Science - Software Engineering Specialist w/ co-op</p>
+                            <p>Member of: Computer Science Enrichment Club (CSEC) and Association for Mathematics and
+                                Computer Science Students (AMACSS)</p>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                </div>
+            </div>
+            <!-- cd-timeline-block -->
         </section>
         <!-- Portfolio Grid Section -->
         <section id="portfolio">
@@ -336,169 +443,6 @@
                 </div>
             </div>
         </section>
-        <!--    To fix white line height, edit height of #cd-timeline::before in reset.css-->
-        <section id="experience" class="cd-container">
-            <div class="row">
-                <div class="col-lg-2 text-center"></div>
-                <div id="cd-timeline" class="col-lg-8 text-center">
-                    <h2>Experience</h2>
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-company"> <img src="img/experience/twitch.png" alt="Picture"> </div>
-                        <!-- cd-timeline-img -->
-                        <div class="cd-timeline-content text-left">
-                            <h4 style="padding-bottom: 0px;">Twitch | Software Engineer, Ads Product</h4>
-                            <h5 style="padding-bottom: 0px;">2021</h5>
-                            <p> Joining Twitch as a full-time Software Engineer in 2021.
-                                </p>
-                        </div>
-                        <!-- cd-timeline-content -->
-                    </div>
-                    <!-- cd-timeline-block -->
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-company"> <img src="img/experience/Lyft.png" alt="Picture"> </div>
-                        <!-- cd-timeline-img -->
-                        <div class="cd-timeline-content text-left">
-                            <h4 style="padding-bottom: 0px;">Lyft | Software Engineer Intern, AV</h4>
-                            <h5 style="padding-bottom: 0px;">Summer 2020</h5>
-                            <p> Created Jupyter dashboards and libraries for running AV simulations to replace CLI tools used by ~50 engineers.
-                                Developed a web workflow to stream and visualize path divergence between AV and simulations by Matplotlib.
-                                Categorized w/ ML, AV to vehicle contacts in simulation missions to automate process from manual triage
-                                </p>
-                        </div>
-                        <!-- cd-timeline-content -->
-                    </div>
-                    <!-- cd-timeline-block -->
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-company"> <img src="img/experience/ms.png" alt="Picture"> </div>
-                        <!-- cd-timeline-img -->
-                        <div class="cd-timeline-content text-left">
-                            <h4 style="padding-bottom: 0px;">Microsoft | Software Engineer Intern</h4>
-                            <h5 style="padding-bottom: 0px;">Summer 2019</h5>
-                            <p> Architected and developed a concurrent scheduler for the Azure .NET application
-                                profiler.
-                                Abstracted an orchestrator for starting/stopping profile sessions and extended it to
-                                Windows and Linux profilers.
-                                Created a scheduling policy which could instantly profile a user's application through
-                                the Azure Portal. </p>
-                        </div>
-                        <!-- cd-timeline-content -->
-                    </div>
-                    <!-- cd-timeline-block -->
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-company"> <img src="img/experience/HBO.png" alt="Picture"> </div>
-                        <!-- cd-timeline-img -->
-                        <div class="cd-timeline-content text-left">
-                            <h4 style="padding-bottom: 0px;">HBO | Software Engineer Intern</h4>
-                            <h5 style="padding-bottom: 0px;">Summer 2018</h5>
-                            <p> Implemented Kubernetes Horizontal Pod Autoscaling on custom metrics for 2019 Game of
-                                Thrones Premier. Architected a web adapter to receive HPA controller requests and
-                                extract Statsd metrics from GraphiteDB Developed HTTP endpoints to emit Prometheus
-                                scrapable histogram metrics for 5 HBO micro-services. </p>
-                        </div>
-                        <!-- cd-timeline-content -->
-                    </div>
-                    <!-- cd-timeline-block -->
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-company"> <img src="img/experience/ms.png" alt="Picture"> </div>
-                        <!-- cd-timeline-img -->
-                        <div class="cd-timeline-content text-left">
-                            <h4 style="padding-bottom: 0px;">Microsoft | Garage Software Engineer Intern</h4>
-                            <h5 style="padding-bottom: 0px;">Winter 2018</h5>
-                            <p> Developed and architected a HoloLens application via Unity and Azure for visualizing 3D
-                                cancer tumour data. Implemented a WebGL app to inject keyboard inputs into the HoloLens
-                                app while syncing the apps’ states. Designed a game object that enabled users to filter
-                                between 50,000 cell models via keyboard control. </p>
-                            <ul class="list-inline">
-                                <li> <a href="https://medium.com/@vincentt117/microsoft-garage-internship-4-months-of-hololens-unity-kinda-startup-and-memes-9acdff53a6ae"
-                                        target="_blank" class="btn-social btn-outline btn-outline-medium"><i
-                                            class="fa fa-fw fa-medium"></i></a>
-                                <li> <a href="https://www.youtube.com/watch?v=4OouJKwl5bMe" target="_blank"
-                                        class="btn-social btn-outline btn-outline-youtube"><i
-                                            class="fa fa-fw fab fa-youtube-play"></i></a>
-                                <li> <a href="http://dailyhive.com/vancouver/bc-cancer-microsoft-treatment-response-study"
-                                        target="_blank" class="btn-social btn-outline"><i
-                                            class="fa fa-fw fa-newspaper-o"></i></a>
-                                <li> <a href="https://mcec.microsoft.ca/blog/vancouver-interns-brings-holograms-to-bc-cancer/"
-                                        target="_blank" class="btn-social btn-outline btn-outline-linkedin"><i
-                                            class="fa fa-fw fa-windows"></i></a>
-                            </ul>
-                        </div>
-                        <!-- cd-timeline-content -->
-                    </div>
-                    <!-- cd-timeline-block -->
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-company"> <img src="img/experience/i.png" alt="Picture"> </div>
-                        <!-- cd-timeline-img -->
-                        <div class="cd-timeline-content text-left">
-                            <h4 style="padding-bottom: 0px;">IBM | Cognos Analyst Intern</h4>
-                            <h5 style="padding-bottom: 0px;">Winter - Summer 2017 - </h5>
-                            <p> Solved 150+ client submitted tickets via issue reproduction, software log tracing, and
-                                trouble-shooting on phone. Identified, documented, and tested 30+ defects within IBM
-                                Cognos; fixed in future iterations of software. Fully repaired 2-3 malfunctioning
-                                server environments daily, achieved multiple perfect client evaluations. </p>
-                        </div>
-                        <!-- cd-timeline-content -->
-                    </div>
-                    <!-- cd-timeline-block -->
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-company"> <img src="img/experience/cd-icon-picture.svg"
-                                alt="Picture"></div>
-                        <!-- cd-timeline-img -->
-                        <div class="cd-timeline-content text-left">
-                            <h4 style="padding-bottom: 0px;">Lamify | Software Engineer</h4>
-                            <h5 style="padding-bottom: 0px;">Summer - Fall 2016</h5>
-                            <p> Implemented landing pages and web applications via Bootstrap and Node.js for company
-                                clients. Developed frontend component in anti-procrastination Chrome extension, which
-                                helped boost user base by 25%. Performed regression tests and ensured cross-platform
-                                functionality for web applications. </p>
-                        </div>
-                    </div>
-                    <!-- cd-timeline-block -->
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-company"> <img src="img/experience/canadapost.png" alt="Picture">
-                        </div>
-                        <!-- cd-timeline-img -->
-                        <div class="cd-timeline-content text-left">
-                            <h4 style="padding-bottom: 0px;">Canada Post | Software Developer Intern</h4>
-                            <h5 style="padding-bottom: 0px;">Summer 2016</h5>
-                            <p>Architected an Excel VBA macro that generates fuel usage anomaly reports for 13,000+
-                                Canada Post vehicles. Developed an automatic email routine with Outlook VBA that sends
-                                location specific reports to site managers. Reduced process runtime by 95% and parsed
-                                12,000+ fuel usage entries in under 12 minutes. </p>
-                        </div>
-                        <!-- cd-timeline-content -->
-                    </div>
-                    <!-- cd-timeline-block -->
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-company"> <img src="img/experience/re.png" alt="Picture"></div>
-                        <!-- cd-timeline-img -->
-                        <div class="cd-timeline-content text-left">
-                            <h4 style="padding-bottom: 0px;">ReEnvision | Web Developer Intern</h4>
-                            <h5 style="padding-bottom: 0px;">Summer 2016</h5>
-                            <p> Designed and implemented tailored marketing websites for agency clients via WordPress
-                                and HTML/CSS. Created a custom marriage license request form for an Ottawa Member of
-                                Parliament’s public site. Implemented SEO via Google Analytics and resolved 200+ visual
-                                issues for various client sites. </p>
-                        </div>
-                        <!-- cd-timeline-content -->
-                    </div>
-                    <!-- cd-timeline-block -->
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-company"> <img src="img/experience/uoft.png" alt="Picture"></div>
-                        <!-- cd-timeline-img -->
-                        <div class="cd-timeline-content text-left">
-                            <h4 style="padding-bottom: 0px;">University of Toronto | Student</h4>
-                            <h5 style="padding-bottom: 0px;">Fall 2015 - Present</h5>
-                            <p>Major: Computer Science - Software Engineering Specialist w/ co-op</p>
-                            <p>Member of: Computer Science Enrichment Club (CSEC) and Association for Mathematics and
-                                Computer Science Students (AMACSS)</p>
-                        </div>
-                        <!-- cd-timeline-content -->
-                    </div>
-                </div>
-            </div>
-            <!-- cd-timeline-block -->
-        </section>
         <!-- Contact -->
         <section class="success" id="contact">
             <div class="container">
@@ -577,10 +521,10 @@
                         <li> <a href="https://medium.com/@vincentt117" target="_blank"
                                 class="btn-social btn-outline btn-outline-medium"><i class="fa fa-fw fa-medium"></i></a>
                         </li>
-                        <li> <a href="https://twitter.com/vinofteng" target="_blank"
+                        <!-- <li> <a href="https://twitter.com/vinofteng" target="_blank"
                                 class="btn-social btn-outline btn-outline-twitter"><i
-                                    class="fa fa-fw fa-twitter"></i></a> </li>
-                        <li> <a href="https://www.instagram.com/vincent_10g/" target="_blank"
+                                    class="fa fa-fw fa-twitter"></i></a> </li> -->
+                        <li> <a href="https://www.instagram.com/themenegg/" target="_blank"
                                 class="btn-social btn-outline btn-outline-instagram"><i
                                     class="fa fa-fw fa-instagram"></i></a> </li>
                         <li> <a href="https://www.youtube.com/channel/UCpgYjVnr86EEy8OklweHxgQ" target="_blank"
